@@ -1,8 +1,6 @@
 var buttonEl = document.querySelector("#save-task");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
-console.log(buttonEl);
-
 var createTaskHandler = function() {
     var listItemEl = document.createElement("li");
     listItemEl.className = "task-item";
